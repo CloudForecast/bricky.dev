@@ -23,13 +23,11 @@ export const HeroSection: React.FC = () => {
               </svg>
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
-            Are your databricks costs spiraling out of control? Do you lack the
-            visibility to understand where your money is going? Stop the
-            bleeding and get actionable insights.
-          </p>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-12 text-gray-200">
+            Every Query. Every User. Every Dollar.
+          </h2>
           <div className="flex flex-col items-center justify-center">
-            <Button primary href="https://zoom.us">
+            <Button primary href="https://savvycal.com/bricky/chat-with-founders?d=30" target="_blank" rel="noopener noreferrer">
               <span className="flex items-center">
                 Schedule a Chat!
                 <ArrowRightIcon size={16} className="ml-2" />

@@ -55,7 +55,7 @@ export const WhyNowSection: React.FC = () => {
                 </p>
               </div>
             </div>
-            <Button primary href="https://zoom.us">
+            <Button primary href="https://savvycal.com/bricky/chat-with-founders?d=30" target="_blank" rel="noopener noreferrer">
               Schedule a Chat!
             </Button>
           </div>

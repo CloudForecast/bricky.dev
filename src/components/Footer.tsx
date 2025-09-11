@@ -20,12 +20,8 @@ export const Footer: React.FC = () => {
               © {new Date().getFullYear()} bricky.dev. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
-              <div className="flex space-x-3">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors p-2 bg-slate-800/50 rounded-full hover:bg-slate-800 border border-slate-700/50">
-                  <LinkedinIcon size={16} />
-                </a>
-              </div>
-              <Button primary href="https://zoom.us">
+              {/* LinkedIn icon hidden for now */}
+              <Button primary href="https://savvycal.com/bricky/chat-with-founders?d=30" target="_blank" rel="noopener noreferrer">
                 <span className="flex items-center">
                   Schedule a Chat!
                   <ArrowRightIcon size={16} className="ml-2" />

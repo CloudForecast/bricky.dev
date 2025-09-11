@@ -10,7 +10,7 @@ export const HeroSection: React.FC = () => {
             Take Control of Your{' '}
             <span className="relative">
               <span className="bg-gradient-to-r from-[#ce5732] to-[#ff8a3b] text-transparent bg-clip-text">
-                databricks Costs
+                Databricks Costs
               </span>
               <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 358 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3 9C118.957 4.47226 236.066 3.86837 355 9" stroke="url(#paint0_linear)" strokeWidth="5" strokeLinecap="round" />
